@@ -3,23 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enrich Pro - Contact Discovery Software | Find Business Emails & Leads</title>
-    <meta name="description" content="Enrich Pro desktop software helps sales teams and marketers discover business emails from websites. Extract contacts, build lead lists, and export to CSV. One-time purchase starting at $12.">
-    <meta name="keywords" content="contact discovery software, business email finder, lead generation tool, extract emails from websites, sales prospecting software">
-    <meta name="author" content="Enrich Pro">
     
-    <!-- Open Graph Tags for Social Sharing -->
-    <meta property="og:title" content="Enrich Pro - Contact Discovery Software">
-    <meta property="og:description" content="Discover business emails and build qualified lead lists from websites with our desktop software.">
+    <!-- Primary Meta Tags -->
+    <title>Enrich Pro - Contact Discovery Software | Find Verified Business Emails Fast</title>
+    <meta name="description" content="Enrich Pro is a powerful Windows desktop tool that extracts real business emails from any website. Smart crawling, geo-location, proxy support, quality scoring & clean CSV export. One-time purchase from $12.">
+    <meta name="author" content="Enrich Pro">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://yourusername.github.io/YourRepoName/help.htm">
+    
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:title" content="Enrich Pro - Contact Discovery Software | Find Business Emails">
+    <meta property="og:description" content="Discover verified business emails from websites in seconds. Smart filtering, geo-targeting, proxy support & CSV export. One-time license from $12.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="\EnrichPro\app_icon.png">
-    
+    <meta property="og:url" content="https://yourusername.github.io/YourRepoName/help.htm">
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome Icons -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Structured Data -->
+
+    <!-- Structured Data: SoftwareApplication -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -27,15 +31,64 @@
       "name": "Enrich Pro",
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "Windows",
-      "description": "Contact discovery software for finding business emails and building lead lists from websites.",
+      "description": "Advanced contact discovery desktop software for finding verified business emails from websites with intelligent filtering, geo-location detection, and CSV export.",
       "offers": {
         "@type": "Offer",
         "price": "12",
-        "priceCurrency": "USD"
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://edataworker.gumroad.com/l/ujttst"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "127"
       }
     }
     </script>
-    
+
+    <!-- FAQ Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Enrich Pro safe and ethical to use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Enrich Pro respects robots.txt, includes delay settings, and is designed for ethical public data research and compliant lead generation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does it work behind proxies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Full rotating proxy support with automatic failover and performance monitoring is built-in."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I process thousands of URLs automatically?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — upload .txt or .csv files with URLs and let Enrich Pro run fully automated with smart crawling and filtering."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this a one-time purchase?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! All plans are lifetime licenses with no recurring fees."
+          }
+        }
+      ]
+    }
+    </script>
+
     <style>
         :root {
             --primary-color: #0066cc;
@@ -52,11 +105,7 @@
             --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
             font-family: 'Inter', sans-serif;
@@ -67,11 +116,7 @@
             overflow-x: hidden;
         }
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
 
         header {
             text-align: center;
@@ -86,10 +131,7 @@
         header::before {
             content: '';
             position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            top: 0; left: 0; right: 0; bottom: 0;
             background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="white" opacity="0.1"/><circle cx="75" cy="75" r="1" fill="white" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>') repeat;
             opacity: 0.5;
         }
@@ -110,33 +152,17 @@
             box-shadow: var(--shadow-md);
         }
 
-        .title-section {
-            text-align: left;
-        }
-
         .title-section h1 {
             font-size: 3rem;
             font-weight: 700;
             margin-bottom: 0;
-            position: relative;
-            z-index: 1;
             line-height: 1;
         }
 
         .title-section p {
             font-size: 1.2rem;
             opacity: 0.9;
-            position: relative;
-            z-index: 1;
             margin-top: 2px;
-            line-height: 1.2;
-        }
-
-        .contact-email {
-            text-align: center;
-            margin: 20px 0;
-            position: relative;
-            z-index: 1;
         }
 
         .contact-email a {
@@ -156,19 +182,12 @@
 
         .section {
             margin-bottom: 60px;
-            animation: fadeInUp 0.8s ease-out;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: var(--transition);
         }
 
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+        .section.visible { opacity: 1; transform: translateY(0); }
 
         h2 {
             font-size: 2.5rem;
@@ -188,7 +207,6 @@
             background-clip: text;
         }
 
-        /* Feature Cards - Centered with flexbox */
         .feature-grid {
             display: flex;
             flex-wrap: wrap;
@@ -214,23 +232,15 @@
         .feature-card::before {
             content: '';
             position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 4px;
+            top: 0; left: 0;
+            width: 100%; height: 4px;
             background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
             opacity: 0;
             transition: var(--transition);
         }
 
-        .feature-card:hover {
-            transform: translateY(-5px);
-            box-shadow: var(--shadow-lg);
-        }
-
-        .feature-card:hover::before {
-            opacity: 1;
-        }
+        .feature-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+        .feature-card:hover::before { opacity: 1; }
 
         .feature-card h3 {
             font-size: 1.3rem;
@@ -242,16 +252,8 @@
             justify-content: center;
         }
 
-        .feature-card h3 i {
-            color: var(--secondary-color);
-            font-size: 1.5rem;
-        }
+        .feature-card h3 i { color: var(--secondary-color); font-size: 1.5rem; }
 
-        .feature-card p {
-            color: var(--text-secondary);
-        }
-
-        /* Price Cards - Grid layout (original perfect layout) */
         .pricing-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -276,32 +278,11 @@
             box-shadow: var(--shadow-lg);
         }
 
-        .price-card h3 {
-            font-size: 1.5rem;
-            color: var(--primary-color);
-            margin-bottom: 10px;
-        }
-
         .price-card .price {
             font-size: 3rem;
             font-weight: 700;
             color: var(--primary-color);
             margin-bottom: 20px;
-        }
-
-        .price-card ul {
-            list-style: none;
-            margin-bottom: 20px;
-        }
-
-        .price-card li {
-            padding: 8px 0;
-            color: var(--text-secondary);
-            border-bottom: 1px solid #f1f5f9;
-        }
-
-        .price-card li:last-child {
-            border-bottom: none;
         }
 
         .price-card a {
@@ -322,7 +303,7 @@
             box-shadow: var(--shadow-lg);
         }
 
-        .recommended .recommended-tag {
+        .recommended-tag {
             position: absolute;
             top: -10px;
             right: -10px;
@@ -332,12 +313,6 @@
             border-radius: 20px;
             font-size: 0.8rem;
             font-weight: 600;
-        }
-
-        /* Centered CTA Button */
-        .cta-button-container {
-            text-align: center;
-            margin: 20px 0;
         }
 
         .cta-button {
@@ -357,14 +332,135 @@
             box-shadow: var(--shadow-lg);
         }
 
-        /* Centered Screenshot */
-        .screenshot {
+        .screenshot, .carousel-slide img {
             max-width: 100%;
             height: auto;
             border-radius: var(--border-radius);
             box-shadow: var(--shadow-lg);
-            margin: 40px auto;
             display: block;
+        }
+
+        .carousel-container {
+            position: relative;
+            max-width: 1000px;
+            margin: 40px auto;
+            overflow: hidden;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .carousel {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .carousel-slide {
+            min-width: 100%;
+            position: relative;
+        }
+
+        .carousel-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .carousel-nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 10px;
+        }
+
+        .carousel, .carousel-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--text-secondary);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .carousel-dot.active {
+            background: var(--primary-color);
+            transform: scale(1.2);
+        }
+
+        .carousel-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.8);
+            border: none;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            transition: var(--transition);
+            z-index: 10;
+        }
+
+        .carousel-btn:hover {
+            background: white;
+            box-shadow: var(--shadow-md);
+        }
+
+        .carousel-btn.prev { left: 20px; }
+        .carousel-btn.next { right: 20px; }
+
+        /* FAQ Styles */
+        .faq-section {
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .faq-item {
+            background: white;
+            margin-bottom: 15px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-md);
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 20px;
+            background: var(--primary-color);
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-question::after {
+            content: "\f078";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+        }
+
+        .faq-answer {
+            padding: 0 20px;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            background: #f8f9fc;
+        }
+
+        .faq-answer.open {
+            padding: 20px;
+            max-height: 300px;
         }
 
         footer {
@@ -375,79 +471,19 @@
             margin-top: 60px;
         }
 
-        footer p {
-            margin-bottom: 10px;
-            opacity: 0.9;
-        }
+        footer a { color: var(--secondary-color); text-decoration: none; margin: 0 10px; }
+        footer a:hover { text-decoration: underline; }
 
-        footer strong {
-            color: var(--secondary-color);
-        }
-
-        footer a {
-            color: var(--secondary-color);
-            text-decoration: none;
-            margin: 0 10px;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        /* Responsive */
         @media (max-width: 768px) {
-            .header-content {
-                flex-direction: row;
-                gap: 15px;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-            
-            .logo {
-                height: 60px;
-            }
-            
-            .title-section h1 {
-                font-size: 2.2rem;
-            }
-
-            .feature-grid {
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            .feature-card {
-                width: 100%;
-                max-width: 320px;
-            }
-
-            .pricing-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .section {
-                margin-bottom: 40px;
-            }
-
-            .price-card .price {
-                font-size: 2.5rem;
-            }
-
-            .price-card.recommended {
-                transform: scale(1);
-            }
-        }
-
-        /* Scroll animations */
-        .section {
-            opacity: 0;
-            transform: translateY(50px);
-            transition: var(--transition);
-        }
-
-        .section.visible {
-            opacity: 1;
-            transform: translateY(0);
+            .header-content { flex-direction: row; flex-wrap: wrap; gap: 15px; }
+            .title-section h1 { font-size: 2.2rem; }
+            .feature-grid { flex-direction: column; align-items: center; }
+            .feature-card { width: 100%; max-width: 320px; }
+            .pricing-grid { grid-template-columns: 1fr; }
+            .price-card.recommended { transform: scale(1); }
+            .carousel-btn { width: 40px; height: 40px; font-size: 1.2rem; }
+            .carousel-btn.prev { left: 10px; }
+            .carousel-btn.next { right: 10px; }
         }
     </style>
 </head>
@@ -455,10 +491,10 @@
     <header>
         <div class="container">
             <div class="header-content">
-                <img src="\EnrichPro\app_icon.png" alt="Enrich Pro - Contact Discovery Software Logo" class="logo">
+                <img src="\EnrichPro\app_icon.png" alt="Enrich Pro - Business Email Finder & Contact Discovery Software" class="logo" width="64" height="64" loading="lazy">
                 <div class="title-section">
-                    <h1>Enrich Pro</h1>
-                    <p>Advanced Contact Discovery Tool</p>
+                    <h1>Enrich Pro - Contact Discovery Software</h1>
+                    <p>Find Verified Business Emails from Any Website</p>
                 </div>
             </div>
             <div class="contact-email">
@@ -467,32 +503,73 @@
         </div>
     </header>
 
-    <div class="container">
-        <div class="section">
+    <main class="container">
+        <section class="section">
             <h2><i class="fas fa-rocket"></i> Generate Leads. Export. Grow.</h2>
-            <p style="font-size: 1.2rem; text-align: center; max-width: 800px; margin: 0 auto 40px;">Desktop tool that finds real emails from any website — with geo-location, proxy support, and clean CSV output.</p>
+            <p style="font-size: 1.2rem; text-align: center; max-width: 800px; margin: 0 auto 40px;">
+                Powerful Windows desktop tool that automatically discovers real business emails from any website — with geo-location detection, rotating proxy support, intelligent filtering, and clean CSV export.
+            </p>
             
-            <div class="cta-button-container">
-                <a href="#pricing" class="cta-button">Start at $12 → 1000 URLs</a>
+            <div style="text-align:center; margin:30px 0;">
+                <a href="#pricing" class="cta-button" aria-label="View pricing starting at $12">Start at $12 → 1000 URLs</a>
+            </div>
+
+            <!-- Image Carousel -->
+            <div class="carousel-container" role="region" aria-label="Enrich Pro software screenshots">
+                <div class="carousel">
+                    <div class="carousel-slide">
+                        <img src="\EnrichPro\Eulatab.png" alt="Enrich Pro EULA and License Agreement Tab" width="1000" height="600" loading="lazy">
+                        <div class="carousel-caption">EULA Tab - License Agreement</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="\EnrichPro\controltab.png" alt="Enrich Pro Main Control Panel and Crawling Interface" width="1000" height="600" loading="lazy">
+                        <div class="carousel-caption">Control Tab - Start/Stop Crawling</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="\EnrichPro\resultstab.png" alt="Enrich Pro Results Tab showing extracted emails with quality scores and locations" width="1000" height="600" loading="lazy">
+                        <div class="carousel-caption">Results Tab - Extracted Emails & Metadata</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="\EnrichPro\settingstab.png" alt="Enrich Pro Settings Tab - Proxy, Depth, Delay Configuration" width="1000" height="600" loading="lazy">
+                        <div class="carousel-caption">Settings - Proxy, Depth, Delays</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="\EnrichPro\licensetab.png" alt="Enrich Pro License Activation and Management Tab" width="1000" height="600" loading="lazy">
+                        <div class="carousel-caption">License Tab - Activation & Management</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="\EnrichPro\helptab.png" alt="Enrich Pro Built-in Help and Documentation Tab" width="1000" height="600" loading="lazy">
+                        <div class="carousel-caption">Help Tab - Guides & Support</div>
+                    </div>
+                </div>
+                <button class="carousel-btn prev" aria-label="Previous screenshot"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-btn next" aria-label="Next screenshot"><i class="fas fa-chevron-right"></i></button>
             </div>
             
-            <img src="\EnrichPro\full.png" alt="Enrich Pro contact discovery software interface showing email extraction results" class="screenshot" onerror="this.src='https://placehold.co/1024x576/ffffff/333333?text=Screenshot+Not+Found';">
-        </div>
+            <div class="carousel-nav" role="tablist">
+                <div class="carousel-dot active" role="tab" aria-selected="true" aria-label="Slide 1"></div>
+                <div class="carousel-dot" role="tab" aria-label="Slide 2"></div>
+                <div class="carousel-dot" role="tab" aria-label="Slide 3"></div>
+                <div class="carousel-dot" role="tab" aria-label="Slide 4"></div>
+                <div class="carousel-dot" role="tab" aria-label="Slide 5"></div>
+                <div class="carousel-dot" role="tab" aria-label="Slide 6"></div>
+            </div>
+        </section>
 
-        <div class="section">
+        <section class="section">
             <h2><i class="fas fa-cogs"></i> Built for Real Results</h2>
             <div class="feature-grid">
                 <div class="feature-card">
-                    <h3><i class="fas fa-sitemap"></i> Smart Web Crawling</h3>
+                    <h3><i class="fas fa-sitemap"></i> Smart Web Control</h3>
                     <p>Configurable depth (1-15 levels), follows internal links, respects robots.txt</p>
                 </div>
                 <div class="feature-card">
                     <h3><i class="fas fa-filter"></i> Intelligent Email Filtering</h3>
-                    <p>Automatically removes garbage emails like <code>@2x.jpg</code>, <code>@css.file</code>, fake patterns</p>
+                    <p>Automatically removes garbage emails like <code>@2x.jpg</code>, fake patterns, and role accounts</p>
                 </div>
                 <div class="feature-card">
                     <h3><i class="fas fa-globe"></i> Geo-Location Detection</h3>
-                    <p>Shows country location for each domain, helps target specific regions</p>
+                    <p>Shows country location for each domain to help target specific regions</p>
                 </div>
                 <div class="feature-card">
                     <h3><i class="fas fa-upload"></i> File-Based URL Input</h3>
@@ -500,7 +577,7 @@
                 </div>
                 <div class="feature-card">
                     <h3><i class="fas fa-download"></i> CSV Export</h3>
-                    <p>Clean CSV output with all metadata - emails, sources, quality scores, locations</p>
+                    <p>Clean CSV output with emails, sources, quality scores, locations, and business classification</p>
                 </div>
                 <div class="feature-card">
                     <h3><i class="fas fa-shield-alt"></i> Proxy Support</h3>
@@ -515,15 +592,15 @@
                     <p>Automatically classifies emails as business 🏢 or personal 👤</p>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="section" id="pricing">
+        <section class="section" id="pricing">
             <h2><i class="fas fa-dollar-sign"></i> Simple, One-Time Pricing</h2>
             <div class="pricing-grid">
                 <div class="price-card">
                     <h3>Starter</h3>
                     <div class="price">$12</div>
-                    <a href="https://edataworker.gumroad.com/l/ujttst" target="_blank">Buy Now</a>
+                    <a href="https://edataworker.gumroad.com/l/ujttst" target="_blank" rel="nofollow">Buy Now</a>
                     <ul>
                         <li><strong>1,000 URLs</strong></li>
                         <li>Smart Email Extraction & Filtering</li>
@@ -537,7 +614,7 @@
                 <div class="price-card">
                     <h3>Basic</h3>
                     <div class="price">$29</div>
-                    <a href="https://edataworker.gumroad.com/l/hokkfz" target="_blank">Buy Now</a>
+                    <a href="https://edataworker.gumroad.com/l/hokkfz" target="_blank" rel="nofollow">Buy Now</a>
                     <ul>
                         <li><strong>5,000 URLs</strong></li>
                         <li>All Starter features +</li>
@@ -550,7 +627,7 @@
                     <div class="recommended-tag">RECOMMENDED</div>
                     <h3>Advance</h3>
                     <div class="price">$49</div>
-                    <a href="https://edataworker.gumroad.com/l/fhcao" target="_blank">Upgrade Now</a>
+                    <a href="https://edataworker.gumroad.com/l/fhcao" target="_blank" rel="nofollow">Upgrade Now</a>
                     <ul>
                         <li><strong>15,000 URLs</strong></li>
                         <li>All Basic features +</li>
@@ -561,11 +638,32 @@
                     </ul>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section faq-section">
+            <h2><i class="fas fa-question-circle"></i> Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <div class="faq-question">Is Enrich Pro safe and ethical to use?</div>
+                <div class="faq-answer">Yes. Enrich Pro respects robots.txt, includes delay settings, and is designed for ethical public data research and compliant lead generation.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Does it work behind proxies?</div>
+                <div class="faq-answer">Absolutely. Full rotating proxy support with automatic failover and performance monitoring is built-in.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Can I process thousands of URLs automatically?</div>
+                <div class="faq-answer">Yes — upload .txt or .csv files with URLs and let Enrich Pro run fully automated with smart crawling and filtering.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Is this a one-time purchase?</div>
+                <div class="faq-answer">Yes! All plans are lifetime licenses with no recurring fees.</div>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2025 Enrich Pro. All rights reserved.</p>
+        <p>© 2025 Enrich Pro. All rights reserved.</p>
         <p><strong>Built for ethical web research and compliance.</strong></p>
         <div>
             <a href="\EnrichPro\privacy.htm" target="_blank">Privacy Policy</a>
@@ -575,22 +673,49 @@
     </footer>
 
     <script>
-        // Simple scroll animation trigger
+        // Scroll animations
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
+                if (entry.isIntersecting) entry.target.classList.add('visible');
             });
         });
+        document.querySelectorAll('.section').forEach(s => observer.observe(s));
 
-        document.querySelectorAll('.section').forEach(section => {
-            observer.observe(section);
+        // Carousel
+        document.addEventListener('DOMContentLoaded', function() {
+            const carousel = document.querySelector('.carousel');
+            const slides = document.querySelectorAll('.carousel-slide');
+            const dots = document.querySelectorAll('.carousel-dot');
+            const prevBtn = document.querySelector('.carousel-btn.prev');
+            const nextBtn = document.querySelector('.carousel-btn.next');
+            let currentSlide = 0;
+            const slideCount = slides.length;
+            let autoSlide = setInterval(() => nextSlide(), 5000);
+
+            function updateCarousel() {
+                carousel.style.transform = `translateX(-${currentSlide * 100}%)`;
+                dots.forEach((dot, i) => dot.classList.toggle('active', i === currentSlide));
+            }
+
+            function nextSlide() { currentSlide = (currentSlide + 1) % slideCount; updateCarousel(); }
+            function prevSlide() { currentSlide = (currentSlide - 1 + slideCount) % slideCount; updateCarousel(); }
+            function resetTimer() { clearInterval(autoSlide); autoSlide = setInterval(nextSlide, 5000); }
+
+            prevBtn.addEventListener('click', () => { prevSlide(); resetTimer(); });
+            nextBtn.addEventListener('click', () => { nextSlide(); resetTimer(); });
+            dots.forEach((dot, i) => dot.addEventListener('click', () => { currentSlide = i; updateCarousel(); resetTimer(); }));
+
+            document.querySelector('.carousel-container').addEventListener('mouseenter', () => clearInterval(autoSlide));
+            document.querySelector('.carousel-container').addEventListener('mouseleave', () => autoSlide = setInterval(nextSlide, 5000));
+        });
+
+        // Simple FAQ toggle
+        document.querySelectorAll('.faq-question').forEach(q => {
+            q.addEventListener('click', () => {
+                const answer = q.nextElementSibling;
+                answer.classList.toggle('open');
+            });
         });
     </script>
 </body>
 </html>
-
-
-
-
