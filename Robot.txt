@@ -1,0 +1,35 @@
+# Enrich Pro - Contact Discovery Software
+# Robots.txt for GitHub Pages: https://edataworker.github.io/EnrichPro/
+
+User-agent: *
+Allow: /
+
+# Block AI scrapers (protect your content)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+# Optional: Block spam bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+# Crawl delay for all other bots (optional, remove if not needed)
+# Crawl-delay: 2
+
+# Sitemap location
+Sitemap: https://edataworker.github.io/EnrichPro/sitemap.xml
+
+# Human-readable note
+# Enrich Pro respects robots.txt - we appreciate you respecting ours.
+# Contact: enrichpro@outlook.com for any questions.
