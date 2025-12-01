@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <!-- Enrich Pro - Contact Discovery Software Sitemap -->
+  <!-- Generated for: https://edataworker.github.io/EnrichPro/ -->
+  
+  <!-- Home/Main Page - Highest Priority -->
+  <url>
+    <loc>https://edataworker.github.io/EnrichPro/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Help/Product Page - High Priority -->
+  <url>
+    <loc>https://edataworker.github.io/EnrichPro/help.htm</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Privacy Policy Page - Medium Priority -->
+  <url>
+    <loc>https://edataworker.github.io/EnrichPro/privacy.htm</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Terms of Use Page - Medium Priority -->
+  <url>
+    <loc>https://edataworker.github.io/EnrichPro/terms.htm</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Direct links to your Gumroad offers (if you want them indexed) -->
+  <url>
+    <loc>https://edataworker.gumroad.com/l/ujttst</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://edataworker.gumroad.com/l/hokkfz</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://edataworker.gumroad.com/l/fhcao</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+</urlset>
